@@ -13,14 +13,15 @@ This message shows that your installation appears to be working correctly."
 ...
 ...
 
-If Docker is not working please visit the [Docker Quickstart Page](https://docs.docker.com/engine/quickstart/)
+If Docker is not working or if you have not yet installed Docker 
+please visit the [Docker Quickstart Page](https://docs.docker.com/engine/quickstart/)
 
 
 **2. Enter this command which builds the image and saves it under the name 'ubuntu/hello_docker'**
 >**$ docker build -t ubuntu/hello_docker .**
 
 
-**3. Run this command which launches the CLI application within the Docker image
+**3. Run this command which launches the CLI application within the Docker image**
 >**$ docker run ubuntu/hello_docker **
 
 The output should show:
