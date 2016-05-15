@@ -5,7 +5,7 @@
 ####To run the Hello Docker CLI application from a Docker container:
 
 **1. Make sure you have a functioning Docker setup by issuing this command:**
->**$ docker run hello-world **
+>**$ docker run hello-world**
 
 The output should state the following:
 "Hello from Docker.
@@ -22,7 +22,7 @@ please visit the [Docker Quickstart Page](https://docs.docker.com/engine/quickst
 
 
 **3. Run this command which launches the CLI application within the Docker image**
->**$ docker run ubuntu/hello_docker **
+>**$ docker run ubuntu/hello_docker**
 
 The output should show:
 
