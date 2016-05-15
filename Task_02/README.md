@@ -20,6 +20,7 @@ please visit the [Docker Quickstart Page](https://docs.docker.com/engine/quickst
 **2. Enter this command which builds the image and saves it under the name 'ubuntu/hello_docker'**
 >**$ docker build -t ubuntu/hello_docker .**
 
+Make sure you are in the directory containing the Dockerfile and the hello_docker script before launching the above command.
 
 **3. Run this command which launches the CLI application within the Docker image**
 >**$ docker run ubuntu/hello_docker**
